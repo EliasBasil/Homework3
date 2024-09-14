@@ -80,17 +80,17 @@ public class Main {
         // Задача 8
         int mashaBefore = 67_760;
         float mashaAfter = mashaBefore * 1.1f;
-        float mashaDifference = mashaAfter - mashaBefore;
+        float mashaDifference = 12 * (mashaAfter - mashaBefore);
         System.out.println("Маша теперь получает " + mashaAfter + " рублей. Годовой доход вырос на " +
                 mashaDifference + " рублей");
         int denisBefore = 83_690;
         float denisAfter = denisBefore * 1.1f;
-        float denisDifference = denisAfter - denisBefore;
+        float denisDifference = 12 * (denisAfter - denisBefore);
         System.out.println("Денис теперь получает " + denisAfter + " рублей. Годовой доход вырос на " +
                 denisDifference + " рублей");
         int christinaBefore = 76_230;
         float christinaAfter = christinaBefore * 1.1f;
-        float christinaDifference = christinaAfter - christinaBefore;
+        float christinaDifference = 12 * (christinaAfter - christinaBefore);
         System.out.println("Кристина теперь получает " + christinaAfter + " рублей. Годовой доход вырос на " +
                 christinaDifference + " рублей");
     }
